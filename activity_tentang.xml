@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="10dp"
+    android:background="#831136"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Tentang">
+
+<ImageView
+    android:layout_width="200sp"
+    android:layout_height="200dp"
+    android:src="@drawable/dims"
+    android:layout_gravity="center"
+    android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama      : Muhammad Dimas Farhansyah"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="65dp"
+        android:textAlignment="center"
+        android:textColor="#DFEE5D"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelas       : 3KA12"
+        android:layout_marginLeft="65dp"
+        android:textAlignment="center"
+        android:textColor="#DFEE5D"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NPM        : 14116773"
+        android:layout_marginLeft="65dp"
+        android:textAlignment="center"
+        android:textColor="#DFEE5D"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+    </RelativeLayout>
+
+</LinearLayout>
